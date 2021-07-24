@@ -17,7 +17,7 @@ from utils import data_prepare, format_time, score
 
 
 CUDA = 0
-DATASET = 'KBP'   # tacred,SemEval
+DATASET = 'KBP'   
 # NUM_LABELS = 7   # 19,42
 MAX_LENGTH = 100
 BATCH_SIZE = 32
