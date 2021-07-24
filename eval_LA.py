@@ -17,7 +17,7 @@ from bert import BertForSequenceClassificationUserDefined
 
 
 CUDA = 0
-DATASET = 'KBP'   # tacred,SemEval
+DATASET = 'KBP'  
 MAX_LENGTH = 100
 BATCH_SIZE = 32
 save_path = './bert_' + DATASET + '.zip'
